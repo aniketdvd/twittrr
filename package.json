@@ -1,0 +1,21 @@
+{
+  "name": "twittrr",
+  "version": "1.0.0",
+  "description": "just another twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "tweet",
+    "bot",
+    "twit"
+  ],
+  "author": "Aniket Dwivedi",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
+}
