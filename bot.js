@@ -7,14 +7,14 @@ var config = require('./config');
 var twitObejct = new twit(config);
 
 var params = {
-    q: '#opensource',
-    count: 10,
+    q: 'jcbkikhudai',
+    count: 20,
     lang: 'en'
 };
 
 twitObejct.get('search/tweets', params, (err, data, response) => {
     let tweets = data.statuses;
     for(let i = 0; i < tweets.length; ++i){
-        console.log(tweets[i].text, '\n\n\n\n\n');
+        console.log(tweets[i].text, '\n\n');
     }
 })

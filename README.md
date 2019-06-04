@@ -2,6 +2,7 @@
 # Twittrr
 Just another simple NodeJS twitter bot for searching for tweets and posting tweets.
 # How to use?
+# Seaching for Tweets :bird:
 * Run ```npm install``` in your command line to install the _twit_ package as the dependency.
 
 * Would be cool if you get yourselves the **[Twitter API Keys](https://developer.twitter.com/en/apps)** by creating an app.
@@ -25,3 +26,8 @@ var params = {
 }
 ```
 * You are now ready to fire the bot. Run ```npm start``` or ```node bot``` in your command line :computer:
+
+# Posting Tweets
+A separate bot file named as ```tweetbot.js``` is made in the root that posts your tweet with ```node tweetbot``` command in your command line.
+
+And that's it!
