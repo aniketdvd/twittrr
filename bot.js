@@ -4,8 +4,6 @@ console.log('TWITTRR is starting...');
 
 var twit = require('twit');
 
-console.log(process.env);
-
 var config = {
     consumer_key:  process.env.CONSUMER_KEY,
     consumer_secret: process.env.CONSUMER_SECRET,
