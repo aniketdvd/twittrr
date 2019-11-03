@@ -1,13 +1,22 @@
-console.log('TWITTRR is starting');
+require('dotenv').config();
+
+console.log('TWITTRR is starting...');
 
 var twit = require('twit');
 
-var config = require('./config');
-//console.log(config);
+console.log(process.env);
+
+var config = {
+    consumer_key:  process.env.CONSUMER_KEY,
+    consumer_secret: process.env.CONSUMER_SECRET,
+    access_token: process.env.ACCESS_TOKEN,
+    access_token_secret: process.env.ACCESS_TOKEN_SECRET
+}
+
 var twitObejct = new twit(config);
 
 var params = {
-    q: 'jcbkikhudai',
+    q: 'devops',
     count: 20,
     lang: 'en'
 };
