@@ -5,14 +5,10 @@ Just another simple NodeJS twitter bot for searching for tweets and posting twee
 # Seaching for Tweets :bird:
 * Run ```npm install``` in your command line to install the _twit_ package as the dependency.
 
-* Would be cool if you get yourselves the **[Twitter API Keys](https://developer.twitter.com/en/apps)** by creating an app.
+* To use this bot, make sure you get API keys from **[Twitter API Keys](https://developer.twitter.com/en/apps)** by creating a Twitter app.
  
-* Put the keys you just got by creating the new Twitter App in ```config.js```.
-```
-consumer_key: 'yourConsumerKey',
-consumer_secret: 'yourConsumerSecretKey',
-access_token: 'yourAccessTokenKey',
-access_token_secret: 'yourAccessTokenSecretKey',
+* API keys can be fed to the code with help of an *environment variable* of which an example is present as ```.env.sample```
+Rename ```.env.sample``` to ```.env``` and paste the keys over there.
 ```
 **Make sure that you type the API keys correctly!**
 
